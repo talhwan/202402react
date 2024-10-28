@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Component1 from './Component1';
+import Component2 from './Component2';
 import Component001 from './Component001';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
           20241028 react oss class published!
         </p>
         <Component1 />
+        <Component2 />
         <Component001 />
         <a
           className="App-link"
