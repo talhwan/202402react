@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          20241028 react oss class
+          20241028 react oss class published!
         </p>
         <Component1 />
         <Component001 />
