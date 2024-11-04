@@ -3,6 +3,7 @@ import './App.css';
 import Component1 from './Component1';
 import Component2 from './Component2';
 import Component001 from './Component001';
+import Hello from './components/Hello.js';
 
 function App() {
   return (
@@ -10,8 +11,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          20241028 react oss class published!
+          20241028 react oss class published!!!
         </p>
+        <Hello />
         <Component1 />
         <Component2 />
         <Component001 />
