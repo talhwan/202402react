@@ -1,32 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
-import Component1 from './Component1';
-import Component2 from './Component2';
-import Component001 from './Component001';
+import Componentc from './components/Componentc.js';
+import Componentf from './components/Componentf.js';
 import Hello from './components/Hello.js';
+import C20241111 from './components/C20241111.js';
 
 function App() {
+
+  const tempName= "test1"; 
+  const tempObj = {
+    name : "name1"
+    , number : 101
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          20241028 react oss class published!!!
-        </p>
-        <Hello />
-        <Component1 />
-        <Component2 />
-        <Component001 />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Hello name="hahaha" />
+      <C20241111 name={tempName} obj={tempObj}/>
+    </>
   );
 }
 

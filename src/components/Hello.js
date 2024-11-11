@@ -4,7 +4,7 @@ function Hello(props){
     return (
         <>
             <h1>Hello World!</h1>
-            <h2>112233</h2>
+            <h2>name = {props.name}</h2>
         </>
     );
 }
