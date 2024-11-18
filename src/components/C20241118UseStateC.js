@@ -3,20 +3,20 @@ import {useState} from "react";
 
 export default function C20241118UseStateC() {
 
-  const [input, setInput] = useState({
-    name : ""
-    ,birth : ""
-    ,gender : ""
-  }); 
-  console.log(input);
+    const [input, setInput] = useState({
+      name : ""
+      ,birth : ""
+      ,gender : ""
+    }); 
+    console.log(input);
 
-  const onChangeInput = (e) => {
-    //
-    setInput({
-        ...input,
-        [e.target.name] : e.target.value
-    });
-  }
+    const onChangeInput = (e) => {
+      //
+      setInput({
+          ...input,
+          [e.target.name] : e.target.value
+      });
+    }
 
   return (
     <>
