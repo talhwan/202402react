@@ -12,7 +12,7 @@ import Register from './components/Register.js';
 import RegisterSimple from './components/RegisterSimple.js';
 import ReactHooks from './components/ReactHooks.js';
 import C20241118a from './components/C20241118a.js';
-import C20241118UseStateC from './components/C20241118UseStateC.js';
+import C20241118UseStateD from './components/C20241118UseStateD.js';
 
 function App() {
 
@@ -33,7 +33,7 @@ function App() {
       {/* <C20241118UseState /> */}
       {/* <ReactHooks /> */}
       {/* <C20241118a title="12345"/> */}
-      <C20241118UseStateC />
+      <C20241118UseStateD />
     </>
   );
 }

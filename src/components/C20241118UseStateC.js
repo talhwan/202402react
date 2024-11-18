@@ -11,6 +11,7 @@ export default function C20241118UseStateC() {
   console.log(input);
 
   const onChangeInput = (e) => {
+    //
     setInput({
         ...input,
         [e.target.name] : e.target.value
